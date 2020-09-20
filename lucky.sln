@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lucky", "lucky\lucky.csproj", "{869CBBEA-EE18-400E-9440-4154C9AF7E7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "lucky\random.csproj", "{869CBBEA-EE18-400E-9440-4154C9AF7E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labelknop", "labelknop\labelknop.csproj", "{F6A94631-9CC5-48DB-BC51-056CA8787195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{869CBBEA-EE18-400E-9440-4154C9AF7E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869CBBEA-EE18-400E-9440-4154C9AF7E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869CBBEA-EE18-400E-9440-4154C9AF7E7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A94631-9CC5-48DB-BC51-056CA8787195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A94631-9CC5-48DB-BC51-056CA8787195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A94631-9CC5-48DB-BC51-056CA8787195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A94631-9CC5-48DB-BC51-056CA8787195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

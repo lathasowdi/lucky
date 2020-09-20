@@ -30,8 +30,10 @@ namespace lucky
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Shuffle(Naamen);
+            listBox1.DataSource = null;
+            listBox1.DataSource = Naamen;
 
-            listBox1.DataSource = Shuffle(Naamen);
         }
             
         public static List<String> Shuffle(List<String> list)
